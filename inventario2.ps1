@@ -1,6 +1,6 @@
 Add-Type -AssemblyName System.Windows.Forms
 
-$ArquivoInventario = "\\192.168.8.4\geral\TI\inventario\INVENTARIO_SH.csv"
+$ArquivoInventario = "geral\TI\inventario\INVENTARIO_SH.csv"
 
 try {
     $NomeComputador = $env:COMPUTERNAME
